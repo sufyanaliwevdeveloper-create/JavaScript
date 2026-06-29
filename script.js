@@ -1,41 +1,41 @@
+const result = 10 - 5;
+console.log(result)
 
-const hasPurchased = false;
-const hasPurchasedcourse = true;
-let watchingLessons = false;
-watchingLessons = true;
-console.log(hasPurchased)
-console.log(hasPurchasedcourse)
-console.log(watchingLessons)
+const totalMarks = 500;
+const obtainedMarks = 420;
+const lostMarks = totalMarks - obtainedMarks;
+console.log(lostMarks)
 
-let isResturantopen = false;
-let isRideravailble = false;
-let isrderPlaced = false;
+// Exersise 1
 
-console.log(isResturantopen)
-console.log(isRideravailble)
-console.log(isrderPlaced)
+const balance = 10000;
+const withrawl = 2500;
+const remainingBalance = balance - withrawl;
 
-let isContactformSubmitted = true;
-let hasUploudedfile = false;
-let isEmailverified = true;
+console.log(remainingBalance)
 
-console.log(isContactformSubmitted)
-console.log(hasUploudedfile)
-console.log(isEmailverified)
+// Exersise 2
 
-let isFollowing = true;
-let isonline = false;
-let isProfilePublic = true;
+const totalStock = 100;
+const soldProducts = 37;
+const remainingStock = totalStock - soldProducts;
+
+console.log(remainingStock)
+
+// Exersise 3
+
+const totalLessons = 37;
+const completedLessons = 18;
+const remainingLessons = totalLessons - completedLessons;
+
+console.log(remainingLessons)
+
+// Exersise 4
+
+const monthlyBudget = 50000;
+const expense = 32000;
+const remainingBudget = monthlyBudget - expense;
+
+console.log(remainingBudget)
 
 
-console.log(isFollowing)
-console.log(isonline)
-console.log(isProfilePublic)
-
-let isWebsitelived = false;
-const isPaymentRecived = true;
-let hasMaintainnceplan = true;
-
-console.log(isWebsitelived)
-console.log(isPaymentRecived)
-console.log(hasMaintainnceplan)
