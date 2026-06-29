@@ -1,34 +1,27 @@
-// Division operator
 
-const result = 20 / 4;
-console.log(result)
-
-// Exersise 1
-
-const totalMarks = 800;
-const subject = 7;
-const averegeMarks = totalMarks / subject;
-console.log(averegeMarks)
-
-// Exersise 2
-
-const yearltIncome = 1200000;
-const months = 12;
-const monthlyIncome = yearltIncome / months;
-console.log(monthlyIncome)
-
-// Exersise 3
-
-const totalTasks = 50;
-const teamMemebers = 5;
-const taskperMember = totalTasks / teamMemebers;
-console.log(taskperMember)
-
-// Exersise 4
+const visitors = 25;
+const remainder = visitors % 2;
+console.log(remainder)
 
 const pizzaSlices = 8;
-const freinds = 4;
-const sliceperFreind = pizzaSlices / freinds;
-console.log(sliceperFreind)
+const freinds = 3;
+const remainingSlices = pizzaSlices % freinds;
+console.log(remainingSlices)
 
-console.log(5 / 0)
+const students = 23;
+const groupSize = 5;
+const remainingStudents = students % groupSize;
+console.log(remainingStudents)
+
+const products = 52;
+const boxSize = 10;
+const remainingProducts = products % boxSize;
+console.log(remainingProducts)
+
+const lessons = 37;
+const lessonPerweek = 7;
+const remainingLessons = lessons % lessonPerweek;
+console.log(remainingLessons)
+
+console.log(50 % 2)
+
