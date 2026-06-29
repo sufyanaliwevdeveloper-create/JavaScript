@@ -1,41 +1,34 @@
-// Multiplication operator
+// Division operator
 
-const result = 10 * 4;
+const result = 20 / 4;
 console.log(result)
-
-const price = 3000;
-const quantity = 4;
-const totalPrice = price * quantity;
-console.log(totalPrice)
 
 // Exersise 1
 
-const productPrice = 1200;
-const productQuantity = 8;
-const totalBill = productPrice * productQuantity;
-console.log(totalBill)
+const totalMarks = 800;
+const subject = 7;
+const averegeMarks = totalMarks / subject;
+console.log(averegeMarks)
 
-// Exersiese 2
+// Exersise 2
 
-const hourlyRate = 20;
-const hoursWorked = 15;
-const earnings = hourlyRate * hoursWorked;
-console.log(earnings)
+const yearltIncome = 1200000;
+const months = 12;
+const monthlyIncome = yearltIncome / months;
+console.log(monthlyIncome)
 
 // Exersise 3
 
-const subscribersperDay = 100;
-const days = 30;
-const totalSubscribers = subscribersperDay * days;
-console.log(totalSubscribers)
+const totalTasks = 50;
+const teamMemebers = 5;
+const taskperMember = totalTasks / teamMemebers;
+console.log(taskperMember)
 
 // Exersise 4
 
-const lessonsPermodules = 5;
-const modules = 8;
-const totalLessons = lessonsPermodules * modules;
-console.log(totalLessons)
+const pizzaSlices = 8;
+const freinds = 4;
+const sliceperFreind = pizzaSlices / freinds;
+console.log(sliceperFreind)
 
-
-
-
+console.log(5 / 0)
