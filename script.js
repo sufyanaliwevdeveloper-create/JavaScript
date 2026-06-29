@@ -1,41 +1,41 @@
-const result = 10 - 5;
+// Multiplication operator
+
+const result = 10 * 4;
 console.log(result)
 
-const totalMarks = 500;
-const obtainedMarks = 420;
-const lostMarks = totalMarks - obtainedMarks;
-console.log(lostMarks)
+const price = 3000;
+const quantity = 4;
+const totalPrice = price * quantity;
+console.log(totalPrice)
 
 // Exersise 1
 
-const balance = 10000;
-const withrawl = 2500;
-const remainingBalance = balance - withrawl;
+const productPrice = 1200;
+const productQuantity = 8;
+const totalBill = productPrice * productQuantity;
+console.log(totalBill)
 
-console.log(remainingBalance)
+// Exersiese 2
 
-// Exersise 2
-
-const totalStock = 100;
-const soldProducts = 37;
-const remainingStock = totalStock - soldProducts;
-
-console.log(remainingStock)
+const hourlyRate = 20;
+const hoursWorked = 15;
+const earnings = hourlyRate * hoursWorked;
+console.log(earnings)
 
 // Exersise 3
 
-const totalLessons = 37;
-const completedLessons = 18;
-const remainingLessons = totalLessons - completedLessons;
-
-console.log(remainingLessons)
+const subscribersperDay = 100;
+const days = 30;
+const totalSubscribers = subscribersperDay * days;
+console.log(totalSubscribers)
 
 // Exersise 4
 
-const monthlyBudget = 50000;
-const expense = 32000;
-const remainingBudget = monthlyBudget - expense;
+const lessonsPermodules = 5;
+const modules = 8;
+const totalLessons = lessonsPermodules * modules;
+console.log(totalLessons)
 
-console.log(remainingBudget)
+
 
 
