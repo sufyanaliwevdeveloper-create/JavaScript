@@ -1,27 +1,34 @@
+let userLoggedIn = true;
+let haveSubscription = true;
 
-const visitors = 25;
-const remainder = visitors % 2;
-console.log(remainder)
+if (userLoggedIn && haveSubscription) {
+    console.log("Primium Content Dikhao")
+}
+else{
+    console.log("Acces Denied Kero")
+}
 
-const pizzaSlices = 8;
-const freinds = 3;
-const remainingSlices = pizzaSlices % freinds;
-console.log(remainingSlices)
+let marks = 58;
 
-const students = 23;
-const groupSize = 5;
-const remainingStudents = students % groupSize;
-console.log(remainingStudents)
+if (marks>=80) {
+    console.log("A Grade")
+}
+else if (marks>=60) {
+    console.log("B Grade")
+    
+}
+else{
+    
+    console.log("Sorry you are fail")
+}
 
-const products = 52;
-const boxSize = 10;
-const remainingProducts = products % boxSize;
-console.log(remainingProducts)
+let productStock = 0;
 
-const lessons = 37;
-const lessonPerweek = 7;
-const remainingLessons = lessons % lessonPerweek;
-console.log(remainingLessons)
-
-console.log(50 % 2)
-
+if (productStock>0) {
+    console.log("In Stock")
+    
+}
+else{
+    
+    console.log("out of stock")
+}
